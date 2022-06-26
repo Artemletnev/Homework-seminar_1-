@@ -6,7 +6,7 @@ Console.WriteLine("Enter number: ");
 int N = Convert.ToInt32(Console.ReadLine());
 int A = 1;
 int L = A;
-
+Console.WriteLine("Result: ");
 while (L <= N)
 {
     if (L % 2 == 0)
