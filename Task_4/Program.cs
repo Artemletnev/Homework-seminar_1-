@@ -1,0 +1,27 @@
+﻿//  Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+// 5 -> 2, 4
+// 8 -> 2, 4, 6, 8
+
+Console.WriteLine("Enter number: ");
+int N = Convert.ToInt32(Console.ReadLine());
+int A = 1;
+int L = A;
+
+while (L <= N)
+{
+    if (L % 2 == 0)
+    {
+        Console.WriteLine(L);
+        L = L + 1;
+    }
+    else
+    {
+        L = L + 1;
+    }
+}
+
+
+
+
+
+
